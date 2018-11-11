@@ -16070,6 +16070,7 @@ Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.1ms)
   [1m[35mSQL (0.1ms)[0m  INSERT INTO "songs" ("title", "created_at", "updated_at") VALUES (?, ?, ?)  [["title", "Bullet the Blue Sky"], ["created_at", "2018-11-11 05:02:31.752568"], ["updated_at", "2018-11-11 05:02:31.752568"]]
   [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
   [1m[35m (0.3ms)[0m  rollback transaction
+<<<<<<< HEAD
   [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
   [1m[35m (0.1ms)[0m  begin transaction
   [1m[36mArtist Load (0.1ms)[0m  [1mSELECT "artists".* FROM "artists"[0m
@@ -16353,3 +16354,5 @@ Completed 200 OK in 2ms (Views: 2.1ms | ActiveRecord: 0.1ms)
   [1m[35mSong Load (0.2ms)[0m  SELECT  "songs".* FROM "songs"  ORDER BY "songs"."id" ASC LIMIT 1
   Rendered songs/show.html.erb (1.3ms)
   [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+=======
+>>>>>>> 6370b1103dd6e25ba267a5a9c6f394f8a8988ab0
